@@ -1,6 +1,6 @@
 from setuptools import setup, find_namespace_packages
 
-setup(name='mednextv1',
+setup(name='nnunet_mednext',
       packages=find_namespace_packages(include=["nnunet_mednext", "nnunet_mednext.*"]),
       version='1.7.0',
       description='nnU-Net. Framework for out-of-the box biomedical image segmentation.',
